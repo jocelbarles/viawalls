@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #74ebd5, #acb6e5);
+  color: #333;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+.container {
+  background: white;
+  border-radius: 16px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+.horizontal-ad {
+  width: 100%;
+  height: 90px;
+  background: #f5f5f5;
+  border: 1px dashed #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.cover-photo-wrapper {
+  position: relative;
+}
+.cover-photo {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.avatar-wrapper {
+  position: relative;
+  top: -50px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.avatar-container {
+  background: white;
+  padding: 4px;
+  border-radius: 50%;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 2px solid #000;
+}
+.tab-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+.tab-btn {
+  padding: 10px 24px;
+  border-radius: 25px;
+  border: none;
+  background: #007bff;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.tab-btn:hover {
+  background: #0056b3;
+}
+.content {
+  padding: 20px;
+  text-align: center;
+}
+.ads-placeholder {
+  width: 100%;
+  height: 100px;
+  background: #f0f0f0;
+  border: 1px dashed #aaa;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+}
+.continue-btn {
+  width: 100%;
+  padding: 15px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.continue-btn:hover {
+  opacity: 0.9;
+}
+.sponsored-label {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+}
+.auto-note {
+  font-size: 13px;
+  color: #777;
+  margin-top: 8px;
+}
